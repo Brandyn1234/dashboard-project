@@ -1,0 +1,90 @@
+• First potential use-case: Drone Schedule
+Drone Schedule- This allows the user to schedule a flight for a monitoring drone.
+Actor- whoever takes care of the farm.
+Steps:
+    -Actor clicks the "Schedule Drone" button
+    -Actor then selects a drone to fly
+    -Actor selects the part of the field they want to monitor
+    -Actor chooses the time and date they want the drone to fly
+    -Actor presses "confirm flight"
+    -The system then schedules the flight and displays it
+
+• Second potential use-case: Crop Readiness
+Crop readiness- This allows the user to determine if crops are ready for harvest or not.
+Actor- whoever takes care of the farm.
+Steps:
+    -Actor clicks the "Crop Readiness" button
+    -Actor then selects a certain part of the field they want to review for crop readiness
+    -The system gathers data from any recent drone gatherings
+    - The system displays a status of either "ready" or "not ready" based on the most recent data from drone flight
+    -Actor sees the displayed results
+
+• Third potential use-case: Soil Moisture Level
+Soil Moisture Level- This will allow the user to see the moisture level of soil across the farm.
+Actor- The person taking care of the farm
+    Steps:
+    - Actor will select the "Check Soil Moisture" button
+    - Actor will select the part of the field they want to check
+    -The system will gather of the most recent moisture level detected by the drones
+    -The system will then display moisture level
+    -The system will also display any alerts of moisture levels that are too low/high
+
+• Fourth potential use-case: Drone Status
+Drone status-Allows user to access battery life of any drones
+Actor – Person monitoring the moisture levels
+Steps:
+    -Actor clicks the "Drone Status" button
+    -System will show every drone and its battery percentage
+    -Actor will then select a drone
+    -The system will display additional info such as if the drone is flying currently or not
+
+• Fifth potential use-case: Track Livestock
+Track livestock -Will allow the user to see the location of livestock using drone
+Actor- Whoever is tracking the livestock
+Actor- Drone
+Steps:
+    -The user clicks the "Track Livestock" button
+    -System will show all livestock that is able to be monitored
+    -User will select the area they want to track
+    -The drone will go and collect info on the selected area
+    -System will take collected info and display it to the user
+    -System identifies if there are any livestock out of place
+    -User sees gathered information
+
+• Sixth potential use-case: Drone Live Feed
+Drone Live Feed- Will allow the user to see what the drone's camera sees
+Actor- Person viewing the feed
+Actor- Drone
+Steps:
+    -The user will click the "Drone Live Feed" button
+    -The system will show a list of drones to choose from
+    -The user will select a drone to view
+    -The system connects to the selected drone's live camera feed
+    -The user will be able to see the live feed
+    -User can stop watching the live feed
+
+• Seventh potential use-case: Drone Alerts
+Drone Alerts- Will notify the user if there are any problems with a drone
+Actor- The user that will be receiving the notification
+Actor- Drone
+    Steps:
+    -The system will detect a problem an event that requires attention
+    -System generates a notification symbol next to the "Drone Alerts" button
+    -The user will click the "Drone Alerts" button
+    -The system will display any alerts that need to be addressed
+    -The user reviews the displayed alerts
+    -The user takes appropriate actions
+    -The user can delete the alerts
+
+• Eight potential use-case: Crop Damage Detection
+Crop Damage Detection- Allows the user to use the drone data to identify any damaged crops.
+Actor – The user who is looking for damaged crops
+Actor- Drone
+    Steps:
+    -User clicks the "Crop Damage Detection" button
+    -System will show areas of the field to choose from
+    -User will click on an area of crops they want to check
+    -System retrieves the latest info of the crops in the selected area
+    -System identifies any potential crop damage in selected area
+    -System shows alerts to the user of any potential damage to the crops
+    -User will read any alerts about damages

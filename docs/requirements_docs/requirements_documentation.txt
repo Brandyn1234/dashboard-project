@@ -1,0 +1,108 @@
+First potential use case: Drone Schedule
+Drone Schedule - Allows the user to schedule a flight for a monitoring drone.
+Actor - Farm Manager
+
+Steps:
+    - Farm Manager clicks the “Schedule Drone” button
+    - System prompts for drone selection, field coordinates, and scheduled launch time
+    - Farm Manager selects an available drone, inputs the targeted field location, and launch time 
+    - Farm Manager confirms the flight
+    - System schedules the launch and displays confirmation details on the dashboard
+
+--------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------|
+Second potential use case: Crop Readiness
+Crop Readiness - Allows the user to determine if crops are ready for harvest or not.
+Actor - Farm Manager
+
+Steps:
+    - Farm Manager clicks the “Crop Readiness” button
+    - System prompts for coordinates of field for review
+    - Farm Manager inputs targeted field location
+    - System gathers data from the most recent drone flight  
+    - System returns a status of either “ready” or “not ready” from the most recent drone flight
+    - System displays the results on the dashboard
+
+--------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------|
+Third potential use case: Soil Moisture Level
+Soil Moisture Level - Allows the user to see the moisture level of soil across the farm.
+Actor - Farm Manager
+
+Steps:
+    - Farm Manager clicks the “Check Soil Moisture” button
+    - System prompts for coordinates of field for review of the moisture level
+    - Farm Manager inputs targeted field location 
+    - System gathers the most recent moisture level detected by the drones
+    - System displays the moisture level results on the dashboard
+    - System displays alerts of moisture levels that are too low or high
+
+--------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------|
+Fourth potential use case: Drone Status
+Drone Status - Allows the user to view the battery life and operational status of any drone. 
+Actor – Farm Manager
+
+Steps:
+    - Farm Manager clicks the “Drone Status” button
+    - System displays every drone and its battery percentage
+    - Farm Manager selects a drone
+    - System displays additional info such as current flight activity and operational status 
+
+--------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------|
+Fifth potential use case: Track Livestock
+Track livestock - Allows the user to monitor the location of livestock 
+Actor - Farm Manager
+
+Steps:
+    - Farm Manager clicks the “Track Livestock” button
+    - System prompts for the target pasture or field area to scan 
+    - Farm Manager inputs the targeted livestock location
+    - System launches a drone or checks the latest available data for the area
+    - System displays livestock positions on the dashboard and alerts if any animals are missing or out of place
+
+--------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------|
+Sixth potential use case: Drone Live Feed
+Drone Live Feed - Allows the user to view the drones live camera feed.
+Actor - Farm Manager
+
+Steps:
+    - Farm Manager clicks the “Drone Live Feed” button
+    - System displays a list of drones to choose from
+    - Farm Manager selects a drone to view
+    - System connects to the selected drones live camera feed
+    - Farm Manager views the live feed 
+    - Farm Manager closes the live feed
+
+--------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------|
+Seventh potential use case: Drone Alerts
+Drone Alerts - Allows the user to view and manage alerts for any drone.
+Actor - Farm Manager, Farm Maintenance
+
+Steps:
+    - System detects an issue requiring attention
+    - System generates a notification symbol next to the “Drone Alerts” button
+    - Farm Manager clicks the “Drone Alerts” button
+    - System displays any alerts that need to be addressed
+    - Farm Manager reviews the displayed alerts
+    - Farm Manager takes appropriate actions
+    - Farm Manager deletes the alerts
+
+--------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------|
+Eighth potential use case: Crop Damage Detection
+Crop Damage Detection - Allows the user to use the drone data to identify any damaged crops.
+Actor – Farm Manager
+
+Steps:
+    - Farm Manager clicks the “Crop Damage Detection” button
+    - System prompts for field coordinates to view for crop damage
+    - Farm Manager inputs targeted field location
+    - System retrieves latest data from the area 
+    - System detects any crop damage in the area 
+    - System displays alerts of any damage to the crops
+
+
