@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="_zyUH8KDQYBZLxUFEzl7">
+    <mxGraphModel dx="3515" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nDdPXtFA_a24R6zR76WC-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="The Drone Scheduling use case allows the user to schedule a flight for a monitoring drone." vertex="1">
+          <mxGeometry height="80" width="240" x="440" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nDdPXtFA_a24R6zR76WC-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;" value="Drone Schedule" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nDdPXtFA_a24R6zR76WC-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nDdPXtFA_a24R6zR76WC-12" edge="1" parent="1" source="nDdPXtFA_a24R6zR76WC-7" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="nDdPXtFA_a24R6zR76WC-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDdPXtFA_a24R6zR76WC-13" edge="1" parent="1" source="nDdPXtFA_a24R6zR76WC-3" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nDdPXtFA_a24R6zR76WC-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="430" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="The Crop Readiness use case allows the user to determine if crops are ready for harvest or not." vertex="1">
+          <mxGeometry height="80" width="240" x="440" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;" value="Crop Readiness" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-4" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="fZLHZvJt2aSpFXTNHBRJ-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-5" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-2" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fZLHZvJt2aSpFXTNHBRJ-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;The Soil Moisture Level use case allows the user to see moisture levels of soil across the farm.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;" value="Soil Moisture Level" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-9" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-8" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="fZLHZvJt2aSpFXTNHBRJ-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="450" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-10" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-7" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fZLHZvJt2aSpFXTNHBRJ-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;The Drone Status use case allows the user to view the battery life and operational status of any drone.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="440" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;" value="Drone Status" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-14" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-13" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="fZLHZvJt2aSpFXTNHBRJ-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="700" as="sourcePoint" />
+            <mxPoint x="450" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-15" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-12" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fZLHZvJt2aSpFXTNHBRJ-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="700" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="The Track Livestock use case allows the user to monitor the location of livestock." vertex="1">
+          <mxGeometry height="80" width="240" x="440" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;" value="Track Livestock" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-18" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-19" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-18" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="fZLHZvJt2aSpFXTNHBRJ-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="820" as="sourcePoint" />
+            <mxPoint x="450" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-20" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-17" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fZLHZvJt2aSpFXTNHBRJ-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="820" as="sourcePoint" />
+            <mxPoint x="430" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="The Drone Live Feed use case allows the user to view the drone&#39;s live camera feed." vertex="1">
+          <mxGeometry height="80" width="240" x="440" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;" value="Drone Live Feed" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-23" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-24" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-23" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="fZLHZvJt2aSpFXTNHBRJ-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="940" as="sourcePoint" />
+            <mxPoint x="450" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-25" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-22" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fZLHZvJt2aSpFXTNHBRJ-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="940" as="sourcePoint" />
+            <mxPoint x="430" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="The Drone Alerts use case allows the user to view and manage alerts for any drone." vertex="1">
+          <mxGeometry height="80" width="240" x="520" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;" value="Drone Alerts" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="830" as="sourcePoint" />
+            <mxPoint x="200" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-30" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-27" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fZLHZvJt2aSpFXTNHBRJ-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="1100" as="sourcePoint" />
+            <mxPoint x="470" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-31" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Maintenance" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-32" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="880" as="sourcePoint" />
+            <mxPoint x="200" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-33" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-31" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="1110" as="sourcePoint" />
+            <mxPoint x="200" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-34" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-28" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="1110" as="sourcePoint" />
+            <mxPoint x="200" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-35" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-27" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="1110" as="sourcePoint" />
+            <mxPoint x="200" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="The Crop Damage Detection use case allows the user to use the drone data to identify any damaged crops." vertex="1">
+          <mxGeometry height="80" width="240" x="440" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;align=center;" value="Crop Damage Detection" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-38" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Farm Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-39" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-38" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="fZLHZvJt2aSpFXTNHBRJ-37" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="1260" as="sourcePoint" />
+            <mxPoint x="450" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZLHZvJt2aSpFXTNHBRJ-40" edge="1" parent="1" source="fZLHZvJt2aSpFXTNHBRJ-37" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fZLHZvJt2aSpFXTNHBRJ-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="1260" as="sourcePoint" />
+            <mxPoint x="430" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
